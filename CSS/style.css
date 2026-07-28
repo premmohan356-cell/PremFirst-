@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.logobox {
+  height: 40px;
+}
+#Logo-style {
+  border-radius: 50%;
+  background: white;
+}
+p {
+  font-size: 0.6rem;
+}
+img {
+  border-radius: 50%;
+}
+.list-group-item {
+  font-size: 0.6rem !important;
+}
+li {
+  list-style-type: none;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.527) !important;
+}
+input {
+  color: white !important;
+}
+a.nav-link.active {
+  background-color: orange !important;
+  color: white !important;
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    border-radius: 0px !important;
+    padding: 10px;
+  }
+  .sizerender {
+    width: 100% !important;
+  }
+}
